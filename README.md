@@ -1,25 +1,11 @@
-# Проект 1. Анализ вакансий на hh.ru
-
-## Оглаление
-[1.  Описание проекта](https://github.com/ZhanarBaken/prediction_hotel_rating/tree/master/Project_1#Описание-проекта)  
-[2. Какой кейс решаем?](https://github.com/ZhanarBaken/prediction_hotel_rating/tree/master/Project_1#Какой-кейс-решаем)  
-[3. Краткая информация о данных](https://github.com/ZhanarBaken/prediction_hotel_rating/tree/master/Project_1#Краткая-информация-о-данных)  
-[4. Этапы работы над проектом](https://github.com/ZhanarBaken/prediction_hotel_rating/tree/master/Project_1#Этапы-работы-над-проектом)  
-[5. Выводы](https://github.com/ZhanarBaken/prediction_hotel_rating/tree/master/Project_1#Выводы)   
-
-
-### Описание проекта 
-# <p style="border:3px solid DodgerBlue;text-align:center;font-size:100%;">0. Introduction</p>
-<div class="alert alert-info" role="alert">
     
 <center> <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Booking.com_logo2.png" style="width:368px;height:81px;"> 
     
-  WHAT CASE DO WE DECIDE?   
+# <p style="border:3px solid DodgerBlue;text-align:center;font-size:100%;">WHAT CASE DO WE DECIDE?  </p> 
    
-Let’s say that we work as a data scientist at Booking. One of the problems of the company is the dishonest hotels that twist their ratings. One way to detect such hotels is to build a model that predicts the rating of the hotel. If the predictions of the model differ greatly from the actual result, then perhaps the hotel is being dishonest and worth checking out.
-    
-Let's look at the data that we have to work with.
-    
+Let’s say that we work as a data scientist at Booking. One of the problems of the company is the dishonest hotels that twist their ratings. One way to detect such hotels is to build a model that predicts the rating of the hotel. If the predictions of the model differ greatly from the actual result, then perhaps the hotel is being dishonest and worth checking out. 
+
+# <p style="border:3px solid DodgerBlue;text-align:center;font-size:100%;">Let's look at the data. </p> 
     
 <table >
    <tr>
@@ -115,38 +101,19 @@ Let's look at the data that we have to work with.
   </tr> 
       
 </table>
+
+# <p style="border:3px solid DodgerBlue;text-align:center;font-size:100%;">Stages of the project. </p> 
+
+1. Uploading and analysing of datasets
+
+2. Feature engineering and analysing
+
+3. Encoding
+
+4. Feature assessment and selection
+
+5. Machine Learning
+
+# <p style="border:3px solid DodgerBlue;text-align:center;font-size:100%;">Conclusion. </p> 
     
-</div>
-:arrow_up:[к оглавлению](https://github.com/ZhanarBaken/prediction_hotel_rating/tree/master/#Описание-проекта)  
-
-### Какой кейс решаем?
-Компания HeadHunter хочет построить модель, которая бы автоматически определяла примерный уровень заработной платы, подходящей пользователю, исходя из информации, которую он указал о себе. Но, как вы знаете, прежде чем построить модель, данные необходимо преобразовать, исследовать и очистить.
-
-:arrow_up:[к оглавлению](https://github.com/ZhanarBaken/prediction_hotel_rating/tree/master/Project_1#Описание-проекта)
-
-
-### Краткая информация о данных
-
-Данные с резюме соискателей от hh.ru: https://drive.google.com/file/d/1P0xvmHWw0F51jYnsLKca3KoSOpgoVglu/view?usp=sharing
-Данные о курсах различных валют от MDF.RU: https://drive.google.com/file/d/1GRf-yKly5vbfJTjLSc4wyfXkydmmfCO2/view?usp=sharing
-
-:arrow_up:[к оглавлению](https://github.com/ZhanarBaken/data_science_zhanar/tree/main/Project_1#Оглаление)
-
-
-### Этапы работы над проектом  
-
-1. Базовый анализ структуры данных
-
-2. Преобразование данных
-
-3. Разведывательный анализ
-
-4. Очистка данных
-
-:arrow_up:[к оглавлению](https://github.com/ZhanarBaken/data_science_zhanar/tree/main/Project_1#Оглаление)
-
-
-### Выводы
-Учитывая информацию предоставленной  соискателями в резюме, можно спрогнозировать подходящую заработную плату, даже если она не указана. 
-
-:arrow_up:[к оглавлению](https://github.com/ZhanarBaken/data_science_zhanar/tree/main/Project_1#Оглаление)
+Given the information provided by booking, you can predict the appropriate rating of the hotel, even if it is not specified.
